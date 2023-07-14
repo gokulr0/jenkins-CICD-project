@@ -9,7 +9,7 @@ pipeline {
     stage('Checkout') {
       steps {
         sh 'echo passed'
-        git branch: 'main', url: 'https://github.com/gokulr003/jenkins-CICD-project/'
+        //git branch: 'main', url: 'https://github.com/gokulr003/jenkins-CICD-project/'
       }
     }
     stage('Build and Test') {
