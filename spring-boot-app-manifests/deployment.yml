@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: spring-boot-app
-        image: gokulr03/app:replaceImageTag
+        image: gokulr03/app:18
         ports:
         - containerPort: 8080
